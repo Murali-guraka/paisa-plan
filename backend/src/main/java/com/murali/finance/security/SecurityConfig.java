@@ -37,7 +37,6 @@ public class SecurityConfig {
     @Bean
     PasswordEncoder passwordEncoder() { return new BCryptPasswordEncoder(); }
 
-  ```java
 @Bean
 CorsConfigurationSource corsConfigurationSource() {
     CorsConfiguration c = new CorsConfiguration();
@@ -60,5 +59,4 @@ CorsConfigurationSource corsConfigurationSource() {
     source.registerCorsConfiguration("/**", c);
     return source;
 }
-```
 }
