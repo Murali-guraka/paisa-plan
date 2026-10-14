@@ -1,3 +1,14 @@
+# Paisa Plan — Personal Finance Management App
+
+🌐 **Live Demo:** https://paisa-plan-rho.vercel.app
+
+A personal finance application to track income and expenses, manage transactions, and view your financial dashboard.
+
+## Tech Stack
+- Frontend: React, Vite
+- Backend: Java, Spring Boot
+- Database: MySQL
+- Deployment: Vercel, Render, Aiven
 # Paisa Plan – Personal Finance & Budget Planner
 
 Java (Spring Boot, Eclipse) + React (Vite) + MySQL.
