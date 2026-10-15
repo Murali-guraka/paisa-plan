@@ -27,7 +27,7 @@ Optional: run `database/schema.sql` in MySQL Workbench for sample data.
 1. **File → Import → Maven → Existing Maven Projects** → select the `backend` folder.
 2. Open `src/main/resources/application.properties` and set your MySQL password.
 3. Right-click `FinanceApplication.java` → **Run As → Java Application**.
-4. API is live at http://localhost:8080/api (try `/api/summary?month=2026-10`).
+4. API is live at https://paisa-plan-rho.vercel.app (try `/api/summary?month=2026-10`).
 
 Requires JDK 17+. In Eclipse: right-click project → Maven → Update Project if dependencies don't load.
 
@@ -37,7 +37,7 @@ cd frontend
 npm install
 npm run dev
 ```
-Open http://localhost:5173.
+Open https://paisa-plan-rho.vercel.app.
 
 ## API
 | Method | Endpoint | Purpose |
